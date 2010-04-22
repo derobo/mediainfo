@@ -83,7 +83,13 @@ class MediainfoTest < ActiveSupport::TestCase
     :image_format,
 
     :image_width,
-    :image_height
+    :image_height,
+    
+    ### TEXT
+    :text_codec_id,
+    :text_codec_info,
+    :text_format,
+    :text_stream_id
   ]
   
   Mediainfo.supported_attributes.each do |attribute|
